@@ -15,6 +15,7 @@
 
 /* ************ navbar ********* */
 .navbar{
+    width: 100%;
     background-color: #4a3e3e;
     position: fixed;
     right: 0;
@@ -66,6 +67,7 @@ display: none;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }
 
 .head>.container{
@@ -126,7 +128,9 @@ main .btn2:hover{
 
 /* *********************  Bio section **************************/
 
-
+.bio{
+    width: 100%;
+}
 
 .bio>.container{
  
@@ -164,6 +168,7 @@ main .btn2:hover{
 /* *********************    location section **************************/
 
 .location{
+    width: 100%;
     background-color: #F8F8F8;
     padding: 40px 0;
 }
@@ -190,7 +195,9 @@ main .btn2:hover{
 
 
 /* ************************** Products section *************** */
-
+.products{
+    width: 100%;
+}
 .products>.container{
     margin: auto;
     text-align: center;
@@ -239,6 +246,7 @@ main .btn2:hover{
 /* ***************************** contact section ********************* */
 
 .contact{
+    width: 100%;
     background-color: #F8F8F8;
     padding: 50px 0;
 }
@@ -278,6 +286,7 @@ main .btn2:hover{
 
 /* ********************* footer ****************** */
 footer{
+    width: 100%;
     background-color: #403D38;
     padding: 50px 0 0 0 ;
     color: #fff;
@@ -349,7 +358,9 @@ footer .footer-tail{
     font-size: 2rem;
     color: #fff;
 }
-
+.navbar{
+    width: 100%;
+}
 nav ul{
     display: none;
 }
@@ -483,32 +494,8 @@ footer .sec{
     padding: 0 20px;
 }
 
-.footer .sec3>ul {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    width: 100%;
-}
-.footer .sec2>ul {
 
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    width: 100%;
-}
 
-.footer .sec3>ul>li{
-    text-wrap: nowrap;
-    width: 50%;
-}
-.footer .sec2>ul>li{
-    text-wrap: nowrap;
-    width: 50%;
-}
 
 }
 
