@@ -360,6 +360,7 @@ footer .footer-tail{
 }
 .navbar{
     width: 100%;
+    box-sizing: border-box;
 }
 nav ul{
     display: none;
@@ -383,7 +384,6 @@ nav ul  {
 
 
 .head>.container{
- 
     font-size: 1rem;
     padding: 0 20px;
    
@@ -398,12 +398,19 @@ main h2>span{
 
 
 /* *********************** Bio section ******************** */
-    .bio>.container{
+
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.bio>.container{
  
      
         flex-direction: column;
         align-items: center;
         row-gap: 50px;
+
     
     } 
     
@@ -476,6 +483,7 @@ footer>.container{
     flex-direction: column;
     row-gap: 50px;
     width: 100%;
+
 }
 
 footer .sec{
